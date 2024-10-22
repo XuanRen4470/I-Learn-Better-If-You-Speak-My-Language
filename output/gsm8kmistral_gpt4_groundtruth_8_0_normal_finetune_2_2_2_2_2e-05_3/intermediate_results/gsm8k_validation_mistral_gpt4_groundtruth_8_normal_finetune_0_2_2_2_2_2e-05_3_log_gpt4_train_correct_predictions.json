@@ -1,0 +1,12 @@
+[
+    {
+        "question": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?\n\nPlease provide the final answer (a number) at the end, after 'Final Answer:'\n",
+        "groundtruth number": "18.00",
+        "numerical final answer": "18.00",
+        "answer by groundtruth": "18.0",
+        "answer": "First, let's find out how many eggs Janet has left to sell after consuming some for herself and baking muffins for her friends.\n\nEggs laid per day: 16\nEggs consumed for breakfast: 3\nEggs used for baking muffins: 4\n\nTotal eggs consumed or used: 7\n\nSo, the number of eggs she sells daily is:\n\n16 (eggs laid) - 3 (for breakfast) - 4 (for muffins) = 9 eggs\n\nNow, we can calculate the revenue she earns by selling these eggs at the farmers' market:\n\nPrice per egg: $2\nNumber of eggs sold: 9\n\nRevenue: $2/egg * 9 eggs = $18\n\nFinal Answer: $18",
+        "extracted groundtruth": "18.00",
+        "extracted final answer": "18.0",
+        "correctness": "Correct"
+    }
+]

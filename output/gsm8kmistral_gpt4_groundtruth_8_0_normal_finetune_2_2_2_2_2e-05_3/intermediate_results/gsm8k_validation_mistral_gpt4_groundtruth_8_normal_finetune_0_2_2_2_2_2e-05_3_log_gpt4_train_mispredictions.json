@@ -1,0 +1,12 @@
+[
+    {
+        "question": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?\n\nPlease provide the final answer (a number) at the end, after 'Final Answer:'\n",
+        "groundtruth number": "3.00",
+        "numerical final answer": "1.00",
+        "answer by groundtruth": "3.0",
+        "answer": "The robe takes 2 bolts of blue fiber and half that amount of white fiber. Half of 2 is 1 bolt, so the robe takes 1 bolt of white fiber in addition to the 2 bolts of blue fiber.\n\nFinal Answer: 3 bolts (2 blue + 1 white)",
+        "extracted groundtruth": "3.00",
+        "extracted final answer": "1.0",
+        "correctness": "Incorrect"
+    }
+]

@@ -1,0 +1,6 @@
+{
+    "problem": "g",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "By the Binomial Theorem applied to $(x+(-1))^9$, this term is $\\binom98x^8(-1)^1=-9x^8$.  The coefficient of this term is $\\boxed{-9}$."
+}

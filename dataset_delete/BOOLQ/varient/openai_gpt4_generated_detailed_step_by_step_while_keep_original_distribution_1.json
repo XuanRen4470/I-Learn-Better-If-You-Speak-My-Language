@@ -1,0 +1,10 @@
+[
+    {
+        "question": "Given the context: Persian (/\u02c8p\u025c\u02d0r\u0292\u0259n, -\u0283\u0259n/), also known by its endonym Farsi (\u0641\u0627\u0631\u0633\u06cc f\u0101rsi (f\u0252\u02d0\u027e\u02c8si\u02d0) ( listen)), is one of the Western Iranian languages within the Indo-Iranian branch of the Indo-European language family. It is primarily spoken in Iran, Afghanistan (officially known as Dari since 1958), and Tajikistan (officially known as Tajiki since the Soviet era), and some other regions which historically were Persianate societies and considered part of Greater Iran. It is written in the Persian alphabet, a modified variant of the Arabic script, which itself evolved from the Aramaic alphabet.\n\ndo iran and afghanistan speak the same language?\n\nPlease inference first, then provide the final answer (True/False) at the end, after 'Final Answer:'\n",
+        "input": "",
+        "answer": "1. Begin by identifying the primary languages spoken in both Iran and Afghanistan. According to the context provided, Persian is primarily spoken in Iran.\n\n2. Next, observe the language situation in Afghanistan. The context mentions that in Afghanistan, Persian is also spoken but is officially known as Dari since 1958.\n\n3. Recognize the relationship between the languages. Dari is the term used for Persian in Afghanistan, signifying that both Iran and Afghanistan share the same language, albeit under different official names.\n\n4. Conclude from the above steps that Iran and Afghanistan do indeed speak the same language, known as Persian in Iran and Dari in Afghanistan.\n\nFinal Answer: True",
+        "gold_label": "True",
+        "groundtruth": "True",
+        "original_gpt4_prediction": "Iran and Afghanistan both speak Persian, also known as Farsi in Iran and Dari in Afghanistan. Despite the different names, the languages are mutually intelligible and are considered dialects of the same language, stemming from the Western Iranian languages group within the Indo-European language family.\n\nFinal Answer: True"
+    }
+]

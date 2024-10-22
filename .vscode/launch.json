@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            // "python": "/gpfs/users/a1796450/anaconda3/envs/acl2024/bin/python",
+            // "python": "/gpfs/users/a1796450/anaconda3/envs/acl2024_openai/bin/python",
+            // "python": "/gpfs/users/a1796450/anaconda3/envs/nips/bin/python",
+            // "python": "/gpfs/users/a1796450/anaconda3/envs/emnlp_clone/bin/python",
+            // "python": "/gpfs/users/a1796450/anaconda3/envs/emnlp_api_bank/bin/python",
+            // "python": "/gpfs/users/a1796450/anaconda3/envs/emnlp/bin/python",
+            "python": "/gpfs/users/a1796450/anaconda3/envs/acl_2025/bin/python",
+            // "python": "/gpfs/users/a1796450/anaconda3/envs/acl_2025/bin/python",
+
+            
+            "justMyCode": true,
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            },
+            "args": [
+                "--model_type", "_mistral",
+                "--train_task_name", "gsm8k",
+                "--file_suffix", "normal_finetune",
+                "--n_train", "2",
+                "--n_eval", "2",
+                "--n_validation", "2",
+                "--seed_num", "0",
+                "--zero_shot_evaluation", "false",
+                "--sft_epoch", "2",
+                "--sft_lr", "2e-5",
+                "--num_of_sft_checkpoints", "3",
+                "--disable_final_eval", "false",
+                "--enable_sft", "false",
+                "--enable_minimum_change", "false",
+                "--enable_gpt4_gt", "true",
+                "--data_name", "groundtruth"
+            ],
+        }
+    ]
+}
+

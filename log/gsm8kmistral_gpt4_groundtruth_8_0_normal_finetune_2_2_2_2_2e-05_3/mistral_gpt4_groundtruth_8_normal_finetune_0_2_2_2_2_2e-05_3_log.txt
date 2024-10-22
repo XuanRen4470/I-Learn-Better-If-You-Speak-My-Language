@@ -1,0 +1,11 @@
+--------------------------SFT Stage: gpt4_train validation--------------------------.
+validation Evaluation for gsm8k.
+validation Accuracy: 0.5, Cover Ratio: 1.0 for gsm8k.
+validation train_num: 4 checkpoint_iteration: 1 total_epoch_num: 2, validation learning_rate: 2e-05.
+validation Evaluation for gsm8k.
+validation Accuracy: 0.5, Cover Ratio: 1.0 for gsm8k.
+validation train_num: 4 total_epoch_num: 2, validation learning_rate: 2e-05.
+SFT Stage: Best validation best_train_num: 4 Best validation learning_rate: 2e-05 Best validation accuracy: 0.5.
+
+
+# --------------------------SFT Stage: gpt4_train Final Evaluation--------------------------.

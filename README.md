@@ -4,6 +4,9 @@
 
 This project includes training scripts, evaluation tools, and datasets for the paper I Learn Better If You Speak My Language: Understanding the Superior Performance of Fine-Tuning Large Language Models with LLM-Generated Responses. It builds upon the [LLAMA-FACTORY](https://github.com/hiyouga/LLaMA-Factory.git) project to train and test language models effectively.
 
+**We strongly recommend reading our follow-up paper: Efficiently Selecting Response Generation Strategy by Self-Aligned Perplexity for Fine-Tuning LLMs.**
+**This paper offers a deeper discussion on how to select better response-generation strategies and the role of familiarity in fine-tuning effectiveness.**
+
 ## Features
 
 - **Training Scripts**: Customizable training scripts leveraging LLAMA-FACTORY.
